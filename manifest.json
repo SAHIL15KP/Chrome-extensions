@@ -1,0 +1,18 @@
+{
+    "manifest_version":3,
+    "version":"1.1.1",
+    "name":"Leads Tracker",
+    "description":"Save links from the current tab or from manual input.",
+    "action":{
+        "default_title":"Leads Tracker",
+        "default_popup":"index.html",
+        "default_icon":"icon.png"
+    },
+    "icons":{
+        "128":"icon-128.png"
+    },
+    "permissions":[
+        "tabs"
+    ]
+
+}
