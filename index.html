@@ -8,16 +8,18 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- <a href="#">hh</a> -->
-    <input type="url" id="input-el" placeholder="https://example.com"><br>
-    <button id="input-btn" >SAVE INPUT</button>
-    <button id="tab-btn">SAVE TAB</button>
-    <button id="btn2" title="Double-click to delete all saved leads">DELETE ALL</button>
-    <ul id="ul-el" ></ul>
-
-
-
-
+    <main class="popup">
+        <h1>Leads Tracker</h1>
+        <p class="subtitle">Save a link yourself or grab the current tab in one click.</p>
+        <input type="url" id="input-el" placeholder="https://example.com">
+        <div class="actions">
+            <button id="input-btn">Save Input</button>
+            <button id="tab-btn">Save Tab</button>
+            <button id="btn2" title="Double-click to delete all saved leads">Delete All</button>
+        </div>
+        <p class="hint">Double-click Delete All to clear your saved leads.</p>
+        <ul id="ul-el"></ul>
+    </main>
     <script src="index.js"></script>
 </body>
 </html>
