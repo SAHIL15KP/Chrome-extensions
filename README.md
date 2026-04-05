@@ -2,6 +2,7 @@
 
 Leads Tracker is a lightweight Chrome extension that helps users save useful links directly from the browser. You can store the current tab with one click or add a custom link manually, then open your saved leads later from a clean popup interface.
 
+<img width="359" height="374" alt="Screenshot 2026-04-04 214858" src="https://github.com/user-attachments/assets/f99b605e-601e-4056-b687-eb116568e06c" />
 ![Leads Tracker preview](assets/readme/popup-preview.png)
 
 ## Why This Project Is Useful
